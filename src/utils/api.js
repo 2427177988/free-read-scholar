@@ -1,6 +1,6 @@
 // src/utils/api.js
 // --- 1. 定义后端服务器的基础 URL ---
-const BACKEND_BASE_URL = 'http://localhost:5000'; // 你的后端服务器地址
+const BACKEND_BASE_URL = 'https://my-ncbi-proxy-server-only.vercel.app'; // 你的后端服务器地址
 
 // --- 2. 添加一个辅助函数用于处理请求和重试 ---
 const fetchWithRetry = async (url, options = {}, maxRetries = 3, baseDelay = 1000) => {
